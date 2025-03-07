@@ -330,6 +330,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d7e09bacf2e8f004986c7abb707ae97f, type: 3}
+      propertyPath: m_TagString
+      value: Piso
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7e09bacf2e8f004986c7abb707ae97f, type: 3}
 --- !u!4 &22082233 stripped
@@ -429,6 +433,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d7e09bacf2e8f004986c7abb707ae97f, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d7e09bacf2e8f004986c7abb707ae97f, type: 3}
+      propertyPath: m_TagString
+      value: Piso
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7e09bacf2e8f004986c7abb707ae97f, type: 3}
@@ -933,7 +941,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &56435963
 Transform:
   m_ObjectHideFlags: 0
@@ -3515,6 +3523,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d7e09bacf2e8f004986c7abb707ae97f, type: 3}
+      propertyPath: m_TagString
+      value: Piso
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7e09bacf2e8f004986c7abb707ae97f, type: 3}
 --- !u!4 &121339557 stripped
@@ -3653,7 +3665,7 @@ GameObject:
   - component: {fileID: 125892506}
   m_Layer: 7
   m_Name: Zona2
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -5080,7 +5092,7 @@ GameObject:
   - component: {fileID: 172704405}
   m_Layer: 7
   m_Name: Zona 2 (2)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -5451,7 +5463,7 @@ GameObject:
   - component: {fileID: 186755154}
   m_Layer: 7
   m_Name: Zona2
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -6481,7 +6493,7 @@ MonoBehaviour:
   timeBetweenAttacks: 2
   proyectile: {fileID: 4146628453938512670, guid: 07b065bcb117f16439ea1902602564bd, type: 3}
   AtackPoint: {fileID: 1361047398}
-  sightRange: 13.05
+  sightRange: 15.18
   attackRange: 12.2
   enemyInSightRange: 0
   enemyInAttackRange: 0
@@ -6676,7 +6688,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!95 &235552385
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6693,7 +6705,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!65 &235552386
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7033,6 +7045,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d7e09bacf2e8f004986c7abb707ae97f, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d7e09bacf2e8f004986c7abb707ae97f, type: 3}
+      propertyPath: m_TagString
+      value: Piso
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7e09bacf2e8f004986c7abb707ae97f, type: 3}
@@ -7588,7 +7604,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh109934
+  m_Name: pb_Mesh28628
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7758,9 +7774,9 @@ GameObject:
   - component: {fileID: 272891955}
   - component: {fileID: 272891954}
   - component: {fileID: 272891953}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Muro invisible (4)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7773,8 +7789,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 272891951}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -87.4, y: 0.23, z: 229.4}
-  m_LocalScale: {x: 36.186596, y: 11.964, z: 15.475963}
+  m_LocalPosition: {x: -75.7488, y: 0.23, z: 229.4}
+  m_LocalScale: {x: 12.884239, y: 11.964, z: 15.475963}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1756387922}
@@ -8187,6 +8203,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Escaleras
       objectReference: {fileID: 0}
+    - target: {fileID: 3552055319305028588, guid: 2e4d14258e4b7bb4a9ecc71850334f03, type: 3}
+      propertyPath: m_TagString
+      value: Piso
+      objectReference: {fileID: 0}
     - target: {fileID: 6942043901349836653, guid: 2e4d14258e4b7bb4a9ecc71850334f03, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -8515,7 +8535,7 @@ GameObject:
   - component: {fileID: 313194143}
   m_Layer: 7
   m_Name: Terrain_(15.00, -0.99, 46.48)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -8662,7 +8682,7 @@ GameObject:
   - component: {fileID: 319318905}
   m_Layer: 7
   m_Name: Terrain_(15.00, -0.99, 74.48)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -9763,7 +9783,7 @@ GameObject:
   - component: {fileID: 360879145}
   m_Layer: 7
   m_Name: Terrain_(-15.00, -0.99, 74.48)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -10139,7 +10159,7 @@ GameObject:
   - component: {fileID: 381195671}
   m_Layer: 7
   m_Name: Zona 2
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -10716,7 +10736,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh110574
+  m_Name: pb_Mesh29264
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11112,7 +11132,7 @@ GameObject:
   - component: {fileID: 411730758}
   m_Layer: 7
   m_Name: Zona2 (1)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -11924,7 +11944,7 @@ GameObject:
   - component: {fileID: 432993233}
   m_Layer: 7
   m_Name: Zona2
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -12304,7 +12324,7 @@ GameObject:
   - component: {fileID: 446912353}
   m_Layer: 7
   m_Name: Terrain_(-15.00, -0.99, 46.48)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -12960,7 +12980,7 @@ GameObject:
   - component: {fileID: 465285873}
   m_Layer: 7
   m_Name: Zona2
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -13155,6 +13175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -13862,9 +13883,9 @@ GameObject:
   - component: {fileID: 519627218}
   - component: {fileID: 519627217}
   - component: {fileID: 519627216}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Muro invisible (6)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14021,9 +14042,9 @@ GameObject:
   - component: {fileID: 535179981}
   - component: {fileID: 535179980}
   - component: {fileID: 535179979}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Muro invisible (8)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14119,7 +14140,7 @@ GameObject:
   - component: {fileID: 537966602}
   m_Layer: 7
   m_Name: Terrain_(5.00, -0.99, 46.48)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -14589,6 +14610,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d7e09bacf2e8f004986c7abb707ae97f, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d7e09bacf2e8f004986c7abb707ae97f, type: 3}
+      propertyPath: m_TagString
+      value: Piso
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7e09bacf2e8f004986c7abb707ae97f, type: 3}
@@ -15994,7 +16019,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 08f1f64b79f4099459a2f390d4b2a8ad, type: 3}
       propertyPath: m_TagString
-      value: Piso
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08f1f64b79f4099459a2f390d4b2a8ad, type: 3}
@@ -16363,7 +16388,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 636074843}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.532, y: -0, z: -1.2}
+  m_LocalPosition: {x: -0.532, y: -0.046, z: -1.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16980,7 +17005,7 @@ GameObject:
   - component: {fileID: 684750118}
   m_Layer: 7
   m_Name: Terrain_(-25.00, -0.99, 74.48)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -17068,6 +17093,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SoldadoEnemigo (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5167097937405477963, guid: 47009b3e39954904498787df9f474aa4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5548127556471185137, guid: 47009b3e39954904498787df9f474aa4, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -17114,11 +17143,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6189498372397565926, guid: 47009b3e39954904498787df9f474aa4, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6189498372397565926, guid: 47009b3e39954904498787df9f474aa4, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6468622673521656781, guid: 47009b3e39954904498787df9f474aa4, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6468622673521656781, guid: 47009b3e39954904498787df9f474aa4, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6468622673521656781, guid: 47009b3e39954904498787df9f474aa4, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47009b3e39954904498787df9f474aa4, type: 3}
@@ -17600,6 +17641,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7a8313b4896e2e94c9a92691abc30343, type: 3}
+      propertyPath: m_TagString
+      value: Piso
+      objectReference: {fileID: 0}
     - target: {fileID: 1288151836774728244, guid: 7a8313b4896e2e94c9a92691abc30343, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -17745,9 +17790,9 @@ GameObject:
   - component: {fileID: 717736886}
   - component: {fileID: 717736885}
   - component: {fileID: 717736884}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Muro invisible (2)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18135,6 +18180,103 @@ MonoBehaviour:
   transitionSpeed: 0
   panelPistola: {fileID: 0}
   modo: 0
+--- !u!1 &726708450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 726708451}
+  - component: {fileID: 726708454}
+  - component: {fileID: 726708453}
+  - component: {fileID: 726708452}
+  m_Layer: 11
+  m_Name: Muro invisible (10)
+  m_TagString: Piso
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &726708451
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726708450}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -38.1062, y: 0.53, z: 243.53}
+  m_LocalScale: {x: 89.36628, y: 11.964, z: 12.589695}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1756387922}
+  m_RootOrder: 58
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &726708452
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726708450}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.014123, y: 0.9999999, z: 1}
+  m_Center: {x: 0.007061248, y: 0, z: 8.7559463e-17}
+--- !u!23 &726708453
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726708450}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: fe14ac1c95ea8d0478516bc4cc511ca8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &726708454
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726708450}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &733446689
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18454,7 +18596,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh109458
+  m_Name: pb_Mesh28162
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -18699,7 +18841,7 @@ GameObject:
   - component: {fileID: 751204182}
   m_Layer: 7
   m_Name: Zona 2 (1)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -19559,7 +19701,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &767270433
 Transform:
   m_ObjectHideFlags: 0
@@ -21599,7 +21741,7 @@ GameObject:
   - component: {fileID: 888605537}
   m_Layer: 7
   m_Name: Zona 2
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -22634,6 +22776,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SoldadoEnemigo (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5167097937405477963, guid: 47009b3e39954904498787df9f474aa4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5548127556471185137, guid: 47009b3e39954904498787df9f474aa4, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -22680,11 +22826,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6189498372397565926, guid: 47009b3e39954904498787df9f474aa4, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6189498372397565926, guid: 47009b3e39954904498787df9f474aa4, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6468622673521656781, guid: 47009b3e39954904498787df9f474aa4, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6468622673521656781, guid: 47009b3e39954904498787df9f474aa4, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6468622673521656781, guid: 47009b3e39954904498787df9f474aa4, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47009b3e39954904498787df9f474aa4, type: 3}
@@ -22693,6 +22851,103 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5548127556471185137, guid: 47009b3e39954904498787df9f474aa4, type: 3}
   m_PrefabInstance: {fileID: 930664111}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &938744377
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 938744378}
+  - component: {fileID: 938744381}
+  - component: {fileID: 938744380}
+  - component: {fileID: 938744379}
+  m_Layer: 11
+  m_Name: Muro invisible (9)
+  m_TagString: Piso
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &938744378
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938744377}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -46.0239, y: 0.53, z: 216.75}
+  m_LocalScale: {x: 73.53434, y: 11.964, z: 12.589695}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1756387922}
+  m_RootOrder: 57
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &938744379
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938744377}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.014123, y: 0.9999999, z: 1}
+  m_Center: {x: 0.007061248, y: 0, z: 8.7559463e-17}
+--- !u!23 &938744380
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938744377}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: fe14ac1c95ea8d0478516bc4cc511ca8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &938744381
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938744377}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &940132916
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23726,7 +23981,7 @@ GameObject:
   - component: {fileID: 953827359}
   m_Layer: 7
   m_Name: Terrain_(5.00, -0.99, 74.48)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -24186,6 +24441,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7a8313b4896e2e94c9a92691abc30343, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7a8313b4896e2e94c9a92691abc30343, type: 3}
+      propertyPath: m_TagString
+      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 1288151836774728244, guid: 7a8313b4896e2e94c9a92691abc30343, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -24893,9 +25152,9 @@ GameObject:
   - component: {fileID: 1041898851}
   - component: {fileID: 1041898850}
   - component: {fileID: 1041898849}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Muro invisible (5)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28874,6 +29133,10 @@ PrefabInstance:
     - target: {fileID: 3552055319305028588, guid: 2e4d14258e4b7bb4a9ecc71850334f03, type: 3}
       propertyPath: m_Name
       value: Escaleras (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3552055319305028588, guid: 2e4d14258e4b7bb4a9ecc71850334f03, type: 3}
+      propertyPath: m_TagString
+      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 4369687472068346805, guid: 2e4d14258e4b7bb4a9ecc71850334f03, type: 3}
       propertyPath: m_LocalScale.z
@@ -33037,7 +33300,7 @@ GameObject:
   - component: {fileID: 1208292638}
   m_Layer: 0
   m_Name: Zona2
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -33825,7 +34088,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh109248
+  m_Name: pb_Mesh27952
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -33996,7 +34259,7 @@ GameObject:
   - component: {fileID: 1243668161}
   m_Layer: 7
   m_Name: Terrain_(-25.00, -0.99, 46.48)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -34074,7 +34337,7 @@ GameObject:
   - component: {fileID: 1266042678}
   m_Layer: 7
   m_Name: Zona 2 (3)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -35243,6 +35506,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d7e09bacf2e8f004986c7abb707ae97f, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d7e09bacf2e8f004986c7abb707ae97f, type: 3}
+      propertyPath: m_TagString
+      value: Piso
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7e09bacf2e8f004986c7abb707ae97f, type: 3}
@@ -36524,7 +36791,7 @@ GameObject:
   - component: {fileID: 1361863814}
   m_Layer: 7
   m_Name: Terrain_(-5.00, -0.99, 74.48)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -37050,6 +37317,10 @@ PrefabInstance:
     - target: {fileID: 3552055319305028588, guid: 2e4d14258e4b7bb4a9ecc71850334f03, type: 3}
       propertyPath: m_Name
       value: Escaleras (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3552055319305028588, guid: 2e4d14258e4b7bb4a9ecc71850334f03, type: 3}
+      propertyPath: m_TagString
+      value: Piso
       objectReference: {fileID: 0}
     - target: {fileID: 4369687472068346805, guid: 2e4d14258e4b7bb4a9ecc71850334f03, type: 3}
       propertyPath: m_LocalScale.x
@@ -38371,7 +38642,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh110706
+  m_Name: pb_Mesh29394
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -38654,7 +38925,7 @@ GameObject:
   - component: {fileID: 1474738081}
   m_Layer: 0
   m_Name: Zona 2
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -38732,7 +39003,7 @@ GameObject:
   - component: {fileID: 1474796534}
   m_Layer: 7
   m_Name: Zona2
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -41928,6 +42199,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SoldadoGranada (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5167097937405477963, guid: a1412fabf840e7f41a5b25d20ab8ab25, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5548127556471185137, guid: a1412fabf840e7f41a5b25d20ab8ab25, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -41974,11 +42249,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6189498372397565926, guid: a1412fabf840e7f41a5b25d20ab8ab25, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6189498372397565926, guid: a1412fabf840e7f41a5b25d20ab8ab25, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6468622673521656781, guid: a1412fabf840e7f41a5b25d20ab8ab25, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6468622673521656781, guid: a1412fabf840e7f41a5b25d20ab8ab25, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6468622673521656781, guid: a1412fabf840e7f41a5b25d20ab8ab25, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8850540365517336002, guid: a1412fabf840e7f41a5b25d20ab8ab25, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -43279,7 +43566,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh107548
+  m_Name: pb_Mesh26264
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -43450,7 +43737,7 @@ GameObject:
   - component: {fileID: 1610105994}
   m_Layer: 7
   m_Name: Terrain_(-5.00, -0.99, 46.48)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -44247,7 +44534,7 @@ GameObject:
   - component: {fileID: 1639724962}
   m_Layer: 7
   m_Name: Zona2 (2)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -45337,6 +45624,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d7e09bacf2e8f004986c7abb707ae97f, type: 3}
+      propertyPath: m_TagString
+      value: Piso
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7e09bacf2e8f004986c7abb707ae97f, type: 3}
 --- !u!4 &1696054725 stripped
@@ -45368,7 +45659,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh108844
+  m_Name: pb_Mesh27550
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -45700,6 +45991,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d7e09bacf2e8f004986c7abb707ae97f, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d7e09bacf2e8f004986c7abb707ae97f, type: 3}
+      propertyPath: m_TagString
+      value: Piso
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7e09bacf2e8f004986c7abb707ae97f, type: 3}
@@ -46284,7 +46579,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh110722
+  m_Name: pb_Mesh29410
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -46526,7 +46821,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1754259047}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.26, z: 0}
+  m_LocalPosition: {x: 0, y: 0.48, z: 3.34}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -46954,6 +47249,8 @@ Transform:
   - {fileID: 519627215}
   - {fileID: 1848754137}
   - {fileID: 535179978}
+  - {fileID: 938744378}
+  - {fileID: 726708451}
   m_Father: {fileID: 1941474638}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -48646,7 +48943,7 @@ GameObject:
   - component: {fileID: 1834887677}
   m_Layer: 7
   m_Name: Plataforma
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48823,9 +49120,9 @@ GameObject:
   - component: {fileID: 1848754140}
   - component: {fileID: 1848754139}
   - component: {fileID: 1848754138}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Muro invisible (7)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53528,6 +53825,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SoldadoGranada (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5167097937405477963, guid: a1412fabf840e7f41a5b25d20ab8ab25, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5548127556471185137, guid: a1412fabf840e7f41a5b25d20ab8ab25, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -53574,11 +53875,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6189498372397565926, guid: a1412fabf840e7f41a5b25d20ab8ab25, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6189498372397565926, guid: a1412fabf840e7f41a5b25d20ab8ab25, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6468622673521656781, guid: a1412fabf840e7f41a5b25d20ab8ab25, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6468622673521656781, guid: a1412fabf840e7f41a5b25d20ab8ab25, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6468622673521656781, guid: a1412fabf840e7f41a5b25d20ab8ab25, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8850540365517336002, guid: a1412fabf840e7f41a5b25d20ab8ab25, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -53604,7 +53917,7 @@ GameObject:
   - component: {fileID: 1914561339}
   m_Layer: 7
   m_Name: Zona2
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -54133,7 +54446,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -748823286735536030, guid: cc8bd6c6528c9fa47bc19f44cf744fde, type: 3}
       propertyPath: sightRange
-      value: 15.9
+      value: 15.95
       objectReference: {fileID: 0}
     - target: {fileID: -748823286735536030, guid: cc8bd6c6528c9fa47bc19f44cf744fde, type: 3}
       propertyPath: attackRange
@@ -54230,9 +54543,9 @@ GameObject:
   - component: {fileID: 1936237188}
   - component: {fileID: 1936237187}
   - component: {fileID: 1936237186}
-  m_Layer: 11
+  m_Layer: 7
   m_Name: Muro invisible (3)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54245,8 +54558,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1936237184}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.67, y: 0.23, z: 229.4}
-  m_LocalScale: {x: 36.186596, y: 11.964, z: 15.475963}
+  m_LocalPosition: {x: -24.5109, y: 0.23, z: 229.4}
+  m_LocalScale: {x: 30.506739, y: 11.964, z: 15.475963}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1756387922}
@@ -56281,7 +56594,7 @@ GameObject:
   - component: {fileID: 1973883407}
   m_Layer: 0
   m_Name: TerrainGroup_0 (1)
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56979,7 +57292,7 @@ GameObject:
   - component: {fileID: 2013675987}
   m_Layer: 7
   m_Name: Zona 2
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -58260,7 +58573,7 @@ GameObject:
   - component: {fileID: 2071390579}
   m_Layer: 7
   m_Name: Zona 2
-  m_TagString: Untagged
+  m_TagString: Piso
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -58471,7 +58784,7 @@ MonoBehaviour:
   timeBetweenAttacks: 2
   proyectile: {fileID: 4146628453938512670, guid: 07b065bcb117f16439ea1902602564bd, type: 3}
   AtackPoint: {fileID: 658821207}
-  sightRange: 13.05
+  sightRange: 15.18
   attackRange: 12.2
   enemyInSightRange: 0
   enemyInAttackRange: 0
@@ -59448,7 +59761,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 08f1f64b79f4099459a2f390d4b2a8ad, type: 3}
       propertyPath: m_TagString
-      value: Piso
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08f1f64b79f4099459a2f390d4b2a8ad, type: 3}

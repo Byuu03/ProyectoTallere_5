@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: -5096988164207322166}
   - component: {fileID: -7368740974521855712}
   - component: {fileID: -6365542562345490514}
+  - component: {fileID: 4402135242710754491}
   m_Layer: 0
   m_Name: BalaPLayerpool
   m_TagString: Bala
@@ -157,6 +158,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiempoVida: 4
+--- !u!65 &4402135242710754491
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4146628453938512670}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.076958045, y: 0.067454174, z: 0.206628}
+  m_Center: {x: -0.00084136677, y: 0.012404999, z: 0.0028446496}
 --- !u!1001 &822672603198106581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -320,6 +334,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7113975000765421202, guid: 7a6544910a55a5048b0b0b5dafda8ae4, type: 3}
+    - {fileID: 3023373282182458846, guid: 7a6544910a55a5048b0b0b5dafda8ae4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7a6544910a55a5048b0b0b5dafda8ae4, type: 3}
 --- !u!4 &3423183991652203532 stripped
 Transform:

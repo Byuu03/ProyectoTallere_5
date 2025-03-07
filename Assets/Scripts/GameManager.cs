@@ -36,13 +36,19 @@ public class GameManager : MonoBehaviour
 
     public void Start()
     {
+        Time.timeScale = 1;
 
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     public int vidas;
     public void GameOver()
     {
         print("EndGame");
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+
         GameOverScreen.Setup(score);
     }
 
@@ -50,6 +56,9 @@ public class GameManager : MonoBehaviour
     public void WinGame()
     {
         print("WinGame");
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+
         WinEndScreen.Setup(score);
     }
 
